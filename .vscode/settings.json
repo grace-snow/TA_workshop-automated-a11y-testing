@@ -13,5 +13,8 @@
     "titleBar.inactiveBackground": "#7ab8b599",
     "titleBar.inactiveForeground": "#15202b99"
   },
-  "peacock.color": "#7ab8b5"
+  "peacock.color": "#7ab8b5",
+  "prettier.singleQuote": true,
+  "prettier.singleAttributePerLine": true,
+  "prettier.jsxSingleQuote": true
 }
