@@ -1,4 +1,5 @@
 import React from 'react';
+import Icon from './icon';
 
 const IconButton = ({ name, onClick }) => {
   return (
@@ -10,6 +11,7 @@ const IconButton = ({ name, onClick }) => {
       }}
       aria-label={name}>
       <span className='icon-lookingglass-white'></span>
+      <Icon name={name} />
     </button>
   );
 };
