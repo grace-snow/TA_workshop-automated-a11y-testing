@@ -5,7 +5,7 @@ Object {
   "children": Array [
     Object {
       "level": 1,
-      "name": "CampSpots",
+      "name": "Passes",
       "role": "heading",
     },
     Object {
@@ -13,19 +13,16 @@ Object {
       "role": "link",
     },
     Object {
-      "level": 2,
       "name": "Plan Your Trip",
-      "role": "heading",
+      "role": "button",
     },
     Object {
-      "level": 2,
       "name": "Ways to Stay",
-      "role": "heading",
+      "role": "button",
     },
     Object {
-      "level": 2,
       "name": "Resources",
-      "role": "heading",
+      "role": "button",
     },
     Object {
       "name": "Login",
@@ -126,8 +123,12 @@ Object {
       "name": "Pick a Plan and Start Your Adventure Today!",
       "role": "generic",
     },
+    Object {
+      "name": "CampSpots",
+      "role": "img",
+    },
   ],
-  "name": "CampSpots",
+  "name": "CampSpots Passes",
   "role": "RootWebArea",
 }
 `;
