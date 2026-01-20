@@ -13,14 +13,14 @@ const user = userEvent.setup();
 
 describe('IconButton', () => {
   it('is a button element or has a button role', () => {
-    const { getByRole } = render(<IconButton name='wifi' onClick={() => {}} />);
+    const { getByRole } = render(<IconButton name='map' onClick={() => {}} />);
 
     const button = getByRole('button');
 
     expect(button).toBeInTheDocument();
   });
   it('labels the button', () => {
-    const nameFixture = 'wifi';
+    const nameFixture = 'search';
     const { getByLabelText } = render(<IconButton name={nameFixture} onClick={() => {}} />);
 
     const iconText = getByLabelText(nameFixture);
@@ -44,7 +44,7 @@ describe('IconButton', () => {
         onClick={() => {
           clicked = true;
         }}
-      />
+      />,
     );
 
     const button = screen.getByRole('button');
