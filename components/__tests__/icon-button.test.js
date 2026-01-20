@@ -20,7 +20,7 @@ describe('IconButton', () => {
     expect(button).toBeInTheDocument();
   });
   it('labels the button', () => {
-    const nameFixture = 'search';
+    const nameFixture = 'search icon';
     const { getByLabelText } = render(<IconButton name={nameFixture} onClick={() => {}} />);
 
     const iconText = getByLabelText(nameFixture);
@@ -28,7 +28,7 @@ describe('IconButton', () => {
     expect(iconText).toBeInTheDocument();
   });
   it('can be focused by the keyboard', async () => {
-    render(<IconButton name='Send it' onClick={() => {}} />);
+    render(<IconButton name='Send this' onClick={() => {}} />);
 
     const button = screen.getByRole('button');
 
